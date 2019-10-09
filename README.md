@@ -15,4 +15,4 @@ a very trash cs:go cheat
  - xor encrypted string
  - detected deviceio (gift for you <3)
  - auto load/unload driver
- - undetectable on the worst league platform in the world (memersclub)
+ - undected on the worst league platform in the world (memersclub)
