@@ -2,6 +2,8 @@
  
 a very trash cs:go cheat
 
+> **i'm very very lazy to create a header for the features, do it by yourself**
+
 ### features:
 
  - glow
