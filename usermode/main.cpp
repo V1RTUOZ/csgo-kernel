@@ -9,6 +9,7 @@ int main()
 	SetConsoleTitle("notepad");
 	SetConsoleCtrlHandler(control_handler, TRUE);
 
+	// check if the driver is correctly loaded plz
 	load_driver();
 
 	KeInterface driver("\\\\.\\driver");
@@ -26,6 +27,7 @@ int main()
 
 	while (!GetAsyncKeyState(VK_END))
 	{
+		// NOTE: pls do a one line glow, this is so trash..
 		DWORD glowObjectManager = driver.Read<DWORD>(pid, client_address + 0x524C460, sizeof(ULONG));
 		int glowObjectCount = driver.Read<int>(pid, client_address + 0x524C460 + 0x4, sizeof(int));
 
