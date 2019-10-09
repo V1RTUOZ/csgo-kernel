@@ -21,7 +21,6 @@ int main()
 	std::cout << xorstr_("[*]: client_address: ") << std::uppercase << std::hex << client_address << std::endl;
 
 	DWORD local_player = driver.Read<DWORD>(pid, client_address + 0xCF9A4C, sizeof(ULONG));
-	DWORD in_ground = driver.Read<DWORD>(pid, local_player + 0x104, sizeof(ULONG));
 
 	std::cout << xorstr_("[*]: press end to exit") << std::endl << std::endl;
 
